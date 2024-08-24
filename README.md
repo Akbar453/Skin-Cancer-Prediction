@@ -51,7 +51,6 @@ def pauc_above_tpr(y_true, y_pred):
     return 'pauc', partial_auc, True
  # Model Training
 Three models are trained and evaluated:
-
 LightGBM
 CatBoost
 XGBoost
